@@ -160,6 +160,9 @@ importers:
       '@replit/connectors-sdk':
         specifier: ^0.4.1
         version: 0.4.1
+      mysql2:
+        specifier: ^3.14.0
+        version: 3.23.3(@types/node@25.9.5)
     devDependencies:
       prettier:
         specifier: ^3.9.6

@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "qy_R10Gl2VWND-GYk8GMT"
+uri = "file://database/mysql-schema.sql"
+type = "unspecified"
+title = "Schéma MySQL NetForfait Gabon"
+description = "Fichier SQL prêt à importer pour créer la table commandes et ses index."
+logical_id = "fd410b5e-52a3-4279-acff-85b1bbb5130a"
+content_hash = "sha256:58bd2bacdbe0d16e428f3aac0fd4a1581c63f737964c4a2b47ae96bdbcd20bf5"
+size = 1210
+mtime_ms = 1788001376949
+storage_uri = "gcs://replit-rams-assets-riker/rams/assets/repl:3db0cfd9-41c6-4bf9-a313-458be7f78e52/fd410b5e-52a3-4279-acff-85b1bbb5130a/ae2450c3-9779-4253-8335-1518c85f139d"
+storage_version_token = "1788001382483502"
+content_type = "application/octet-stream"

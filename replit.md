@@ -9,14 +9,15 @@ Site de vente de forfaits internet au Gabon pour les opérateurs Airtel et Moov,
 - `pnpm run typecheck` — vérification TypeScript complète
 - `pnpm --filter @workspace/api-spec run codegen` — régénérer les hooks API depuis la spec OpenAPI (puis patcher `zod.int()` → `zod.number()`)
 - `pnpm --filter @workspace/db run push` — appliquer les migrations DB (dev only)
-- Required env: `DATABASE_URL`, `ASHTECH_API_KEY`
+- Required env: `MYSQL_DATABASE_URL`, `ASHTECH_API_KEY`
+- Optional env: `ASHTECH_BASE_URL` (default: `https://www.ashtechpay.com`)
 
 ## Stack
 
 - pnpm workspaces, Node.js 24, TypeScript 5.9
 - Frontend: React + Vite + Tailwind CSS + shadcn/ui
 - API: Express 5
-- DB: PostgreSQL + Drizzle ORM
+- DB: MySQL + Drizzle ORM (`mysql2`)
 - Validation: Zod (v4), drizzle-zod
 - API codegen: Orval (depuis OpenAPI spec)
 - Paiement: AshtechPay Direct API v1

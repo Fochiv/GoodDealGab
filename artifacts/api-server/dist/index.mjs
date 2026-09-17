@@ -50462,7 +50462,7 @@ var db = drizzle(pool, { schema: schema_exports, mode: "default" });
 // src/routes/paiement.ts
 var router3 = (0, import_express3.Router)();
 var ASHTECH_API_KEY = process.env.ASHTECH_API_KEY;
-var ASHTECH_BASE_URL = "https://ashtechpay.top";
+var ASHTECH_BASE_URL = (process.env.ASHTECH_BASE_URL || "https://www.ashtechpay.com").replace(/\/+$/, "");
 router3.post("/paiement/initier", async (req, res) => {
   const parsed = InitierPaiementBody.safeParse(req.body);
   if (!parsed.success) {

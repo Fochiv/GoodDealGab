@@ -9,7 +9,7 @@ import { randomUUID } from "crypto";
 const router = Router();
 
 const ASHTECH_API_KEY = process.env.ASHTECH_API_KEY;
-const ASHTECH_BASE_URL = "https://ashtechpay.top";
+const ASHTECH_BASE_URL = (process.env.ASHTECH_BASE_URL || "https://www.ashtechpay.com").replace(/\/+$/, "");
 
 // Initier un paiement Mobile Money
 router.post("/paiement/initier", async (req, res) => {

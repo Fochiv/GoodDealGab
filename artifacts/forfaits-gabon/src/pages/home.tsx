@@ -156,9 +156,9 @@ export default function Home() {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img
-              src={`${BASE}/logo-netforfait.png`}
-              alt="NetForfait Gabon"
-              className="h-10 object-contain"
+              src={`${BASE}/logo-gooddeal.png`}
+              alt="Good Deals Gabon"
+              className="h-10 w-auto object-contain"
             />
           </div>
         </div>
@@ -336,9 +336,9 @@ export default function Home() {
         <div className="container mx-auto max-w-5xl flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
             <img
-              src={`${BASE}/logo-netforfait.png`}
-              alt="NetForfait Gabon"
-              className="h-8 object-contain"
+              src={`${BASE}/logo-gooddeal.png`}
+              alt="Good Deals Gabon"
+              className="h-8 w-auto object-contain"
             />
           </div>
 
@@ -348,11 +348,11 @@ export default function Home() {
           </div>
 
           <div className="text-sm text-muted-foreground text-center space-y-1">
-            <div>© {new Date().getFullYear()} NetForfait Gabon.</div>
+            <div>© {new Date().getFullYear()} Good Deals Gabon.</div>
             <div>
               Service client :{' '}
-              <a href="mailto:support@net-forfait-gab.top" className="text-primary hover:underline font-medium">
-                support@net-forfait-gab.top
+              <a href="mailto:support@good-deal-gab.top" className="text-primary hover:underline font-medium">
+                support@good-deal-gab.top
               </a>
             </div>
           </div>

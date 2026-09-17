@@ -165,7 +165,7 @@ export default function AchatPage() {
               <ArrowLeft className="h-5 w-5" />
             </button>
           )}
-          <img src={`${BASE}/logo-netforfait.png`} alt="NetForfait Gabon" className="h-8 object-contain" />
+          <img src={`${BASE}/logo-gooddeal.png`} alt="Good Deals Gabon" className="h-8 w-auto object-contain" />
           <div className="ml-auto text-right">
             <div className="font-bold text-sm" style={{ color: accentColor }}>{forfait.volume}</div>
             <div className="text-xs text-muted-foreground">{formatPrice(forfait.prix)}</div>
